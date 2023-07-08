@@ -181,3 +181,33 @@ main {
   text-align: center;
   margin-top: 50px;
 }
+/* footer styles */
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 117px;
+  background: #FFF8F3;
+  padding: 130px 230px;
+  margin-top: 113px;
+}
+.footer-col{
+  width: 50%;
+}
+.social-links a{
+  margin-right: 24px;
+}
+.contact input, textarea{
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #fff;
+  border: none;
+  width: 461px;
+}
+.contact textarea{
+  resize: none;
+}
